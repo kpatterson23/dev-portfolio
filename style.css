@@ -1,0 +1,60 @@
+body {
+  background-color: #03001c;
+  color: #5b8fb9;
+  overflow-x: hidden;
+  height: 500vh;
+}
+
+.heading-text {
+  font-size: 4vh;
+}
+
+.bg-img {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  filter: brightness(0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.gradient-text {
+  background: rgb(182, 234, 218);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(182, 234, 218, 1) 55%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(182, 234, 218, 1) 55%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(182, 234, 218, 1) 55%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b6eada",endColorstr="#00d4ff",GradientType=1);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-size: 15vh;
+}
+
+.navbar-brand {
+  color: #5b8fb9;
+}
+
+.nav-link {
+  color: #5b8fb9;
+}
+
+.nav-link:hover {
+  color: #b6eada;
+}
