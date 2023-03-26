@@ -18,10 +18,19 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <!-- Background Img -->
-    <img class="bg-img" src="img/heading-bg.jpg" alt="Code background" />
+    <!-- Background image -->
+    <header class="header">
+      <div class="container pt-5">
+        <p class="heading-text pt-5">Hi, my name is</p>
+        <h1 class="gradient-text animated bounce">Kyle Patterson</h1>
+        <h1 class="gradient-text animated bounce pb-5">
+          I build beautiful websites :)
+        </h1>
+      </div>
+    </header>
+
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">K</a>
         <button
@@ -41,26 +50,61 @@
             <li class="nav-item m-1">
               <a class="nav-link" aria-current="page" href="#">About</a>
             </li>
-            <li class="nav- m-1">
+            <li class="nav-item m-1">
               <a class="nav-link" href="#">Experience</a>
             </li>
-            <li class="nav- m-1">
+            <li class="nav-item m-1">
               <a class="nav-link" href="#">Work</a>
             </li>
-            <li class="nav- m-1">
+            <li class="nav-item m-1">
               <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
-          <button class="btn btn-dark" type="button">Resume</button>
+          <button class="btn btn-info" type="button">Resume</button>
         </div>
       </div>
     </nav>
 
-    <!-- Heading -->
-    <div class="container p-5">
-      <p class="heading-text">Hi, my name is</p>
-      <h1 class="gradient-text">Kyle Patterson</h1>
-      <h1 class="gradient-text">I build beautiful websites :)</h1>
+    <!-- About Me Section -->
+    <div class="container">
+      <div class="row">
+        <h3>About Me</h3>
+        <div class="col">
+          <p>
+            Howdy! My name is Kyle and I enjoy building the most beautiful
+            websites you've ever seen on the internet. My interest in web
+            development was sparked after I took a trial course on web
+            development - I quickly realized this is what I was meant to do. So
+            I joined a bootcamp, got to studying and never looked back!
+          </p>
+          <p>
+            As of today, I've had the privilege of working in the automotive
+            industry, tech industry and food service industry. My focus these
+            days include monitoring, retrieving and ensuring the transmission of
+            data between ground stations and satellites for an aerospace
+            company.
+          </p>
+          <p>
+            Here are few of the technologies and skills I've been developing
+            lately:
+          </p>
+
+          <!-- Technology List -->
+          <ul>
+            <li>HTML 5</li>
+            <li>CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Node.js</li>
+            <li>React</li>
+            <li>React Native</li>
+            <li>Bootstrap 5</li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <!-- Profile Pic Section -->
+        </div>
+      </div>
     </div>
 
     <!-- Required Bootstrap JS -->
